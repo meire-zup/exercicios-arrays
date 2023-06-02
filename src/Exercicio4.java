@@ -59,6 +59,7 @@ public class Exercicio4 {
         int mulheres = 0;
         double maiorAltura = Double.MIN_VALUE;
         double menorAltura = Double.MAX_VALUE;
+
         for (int i =0; i < bancoDeDados.size(); i++) {
             List<Double> linha = bancoDeDados.get(i);
             Double elementoLinha = linha.get(0);
@@ -74,34 +75,27 @@ public class Exercicio4 {
                 } else if(elementoColuna < menorAltura){
                     menorAltura = elementoColuna;
                 }
-            }
 
+            }
         double somaAlturaMasculino = 0;
         double mediaAlturaMasculino;
         for (int i =0; i < bancoDeDados.size(); i++) {
             List<Double> linha = bancoDeDados.get(i);
-            Double elementoLinha = linha.get(0);
-            if(elementoLinha.equals(2.0)){
-                for (int j =0; j < bancoDeDados.size(); j++) {
-                    List<Double> coluna = bancoDeDados.get(j);
-                    Double elementoColuna = coluna.get(1);
-                    somaAlturaMasculino += elementoColuna;
-                }
+            Double valorColuna1 = linha.get(0);
+            Double valorColuna2 = linha.get(1);
+            if(valorColuna1.equals(2.0)){
+                somaAlturaMasculino+=valorColuna2;
             }
         }
         int homens = bancoDeDados.size() - mulheres;
-        System.out.println(homens);
         mediaAlturaMasculino = somaAlturaMasculino/ homens;
-
-
-        //Acessar o índice 4,0
-        System.out.println(bancoDeDados.get(4).get(0));
         System.out.println(bancoDeDados);
+        System.out.println("----------------------------------------------------------");
         System.out.println("A quantidade de mulheres no banco de dados é de: "+mulheres);
         System.out.println("Maior altura: "+maiorAltura);
         System.out.println("Menor altura: "+menorAltura);
-        System.out.println(somaAlturaMasculino);
-        System.out.println("Média da altura masculino: "+mediaAlturaMasculino);
+        System.out.printf("Média da altura dos homens: %.2f\n",mediaAlturaMasculino);
+        System.out.println("----------------------------------------------------------");
 
 
 

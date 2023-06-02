@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="744ca376-0226-40c4-8d33-2f2067cce508" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Exercicio9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercicio10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicio10.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Exercicio11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicio11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercicio2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicio2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercicio5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicio5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercicio6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicio6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercicio7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicio7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercicio8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicio8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercicio4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicio4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercicio9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicio9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
