@@ -23,8 +23,10 @@ public class Exercicio10 {
             }
         }
         double mediaDosNumerosImpares = somaDosNumerosImpares/quantidadeDosNumerosImpares;
-        System.out.println(somaDosNumerosImpares);
-        System.out.println(mediaDosNumerosImpares);
+
+        System.out.println("Vetor: "+vetorA);
+
+        System.out.println("Média dos números ímpares: "+mediaDosNumerosImpares);
 
     }
 }

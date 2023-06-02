@@ -22,9 +22,8 @@ public class Exercicio5 {
         for (double salario : salarioDosFuncionarios) {
             soma+=salario;
         }
-        System.out.println(salarioDosFuncionarios);
-        System.out.println(soma);
+        System.out.println("Salários dos funcionários: "+salarioDosFuncionarios);
         double media  = soma/salarioDosFuncionarios.size();
-        System.out.println(media);
+        System.out.printf("MÉDIA SALARIAL: %,.2f",media);
     }
 }

@@ -6,7 +6,7 @@ public class Exercicio11 {
     Escreva um programa que determine e escreva a menor e a maior idades e suas respectivas posições.
      */
     public static void main(String[] args) {
-        Set<Integer> idades = new HashSet<>();
+        List<Integer> idades = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
         for (int i = 0; i < 10; i++) {
             System.out.println("Informe a "+(i+1)+"ª idade:");

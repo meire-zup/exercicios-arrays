@@ -10,7 +10,7 @@ public class Exercicio2 {
     public static void main(String[] args) {
         List<Integer> numerosImpares = new ArrayList<>(Arrays.asList(1,3,5,7,9,11,15));
         System.out.println(numerosImpares);
-        System.out.println("Adicionando o número 13 na posição específica:");
+        System.out.println("Adicionando o número 13 na posição adequada:");
         numerosImpares.add(6,13);
         System.out.println(numerosImpares);
 
