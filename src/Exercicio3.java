@@ -22,6 +22,8 @@ public class Exercicio3 {
             }
         } while (primeiroNumero == segundoNumero);
         listaDeDoisNumeros.add(segundoNumero);
+        System.out.println("Valores:");
+        System.out.println(listaDeDoisNumeros);
         System.out.println("Ordenando os números em ordem decrescente:");
         Collections.reverse(listaDeDoisNumeros);
         System.out.println(listaDeDoisNumeros);

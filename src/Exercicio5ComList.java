@@ -1,9 +1,8 @@
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
-public class Exercicio5 {
+public class Exercicio5ComList {
     /*
     Criar um programa que calcule a média de salários de uma empresa,
     pedindo ao usuário a grade de funcionários e os salários, e devolvendo a média salarial.

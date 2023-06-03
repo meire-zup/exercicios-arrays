@@ -24,7 +24,7 @@ public class Exercicio1 {
             }
         }
         System.out.println("Lista de números pares :"+numerosPares);
-        System.out.println("Removendo o primeiro número da lista:");
+        System.out.println("REMOVENDO O PRIMEIRO NÚMERO DA LISTA:");
         numerosPares.remove(0);
         System.out.println("Lista de números pares :"+numerosPares);
 
